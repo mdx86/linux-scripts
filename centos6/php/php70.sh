@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-yum remove php*
+yum -y remove php*
 yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 yum -y install http://rpms.remirepo.net/enterprise/remi-release-6.rpm
 
