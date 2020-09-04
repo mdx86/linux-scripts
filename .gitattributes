@@ -1,0 +1,54 @@
+ * !text
+ 
+ # LF 换行文件
+ # --------------------------
+ .gitignore	eol=lf
+ .gitattributes	eol=lf
+ .gitkeep	eol=lf
+ .htaccess	eol=lf
+ .editorconfig	eol=lf
+ .eslintrc	eol=lf
+ 
+ *.html	eol=lf
+ *.js	eol=lf
+ *.css	eol=lf
+ *.scss	eol=lf
+ *.less	eol=lf
+ 
+ *.wxml	eol=lf
+ *.wxss	eol=lf
+ 
+ 
+ *.sh	eol=lf
+ *.py	eol=lf
+ 
+ *.json	eol=lf
+ *.yml	eol=lf
+ *.xml	eol=lf
+ *.md	eol=lf
+ 
+ *.php	eol=lf
+ *.java	eol=lf
+ *.jsp	eol=lf
+ *.go   eol=lf
+ 
+ *.sql	eol=lf
+  
+ # CRLF 换行文件
+ # --------------------------
+ *.bat	eol=crlf
+ *.cmd	eol=crlf
+ 
+*.sln       eol=crlf
+*.csproj    eol=crlf
+*.vbproj    eol=crlf
+*.vcxproj   eol=crlf
+*.vcproj    eol=crlf
+*.dbproj    eol=crlf
+*.fsproj    eol=crlf
+*.lsproj    eol=crlf
+*.wixproj   eol=crlf
+*.modelproj eol=crlf
+*.sqlproj   eol=crlf
+*.wwaproj   eol=crlf
+ 
