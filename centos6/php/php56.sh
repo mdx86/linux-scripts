@@ -11,3 +11,5 @@ yum -y install yum-utils
 
 yum-config-manager --enable remi-php56
 yum -y install php php-process
+
+chkconfig php-fpm on

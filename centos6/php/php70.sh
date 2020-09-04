@@ -8,3 +8,5 @@ yum -y install yum-utils
 yum-config-manager --enable remi-php70 
 
 yum -y install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo php-fpm php-mbstring php-pecl-igbinary php-pecl-jsonc php-pecl-redis php-process php-xml php-pdo php-pecl-event
+
+chkconfig php-fpm on
